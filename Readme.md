@@ -41,3 +41,6 @@ https://docs.docker.com/compose/install/
 
 ```
 docker-compose up -d
+
+## Directory Structure
+![image](https://user-images.githubusercontent.com/115990200/196213767-f9585dc1-3cf9-45d9-8860-c561a3265143.png)
