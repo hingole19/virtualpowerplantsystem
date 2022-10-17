@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "4ad2bc67-9006-4afb-a945-b44f61adbab8",
+		"name": "JavaAssessment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14175799"
+	},
+	"item": [
+		{
+			"name": "save",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"name\": \"Hay Street\",\n        \"postcode\": \"6000\",\n        \"capacity\": 23500\n    },\n    {\n        \"name\": \"Mount Adams\",\n        \"postcode\": \"6525\",\n        \"capacity\": 12000\n    },\n    {\n        \"name\": \"Koolan Island\",\n        \"postcode\": \"6733\",\n        \"capacity\": 10000\n    },\n    {\n        \"name\": \"Armadale\",\n        \"postcode\": \"6992\",\n        \"capacity\": 25000\n    },\n    {\n        \"name\": \"Lesmurdie\",\n        \"postcode\": \"6076\",\n        \"capacity\": 13500\n    },\n    {\n        \"name\": \"Kalamunda\",\n        \"postcode\": \"6076\",\n        \"capacity\": 13500\n    },\n    {\n        \"name\": \"Carmel\",\n        \"postcode\": \"6076\",\n        \"capacity\": 36000\n    },\n    {\n        \"name\": \"Bentley\",\n        \"postcode\": \"6102\",\n        \"capacity\": 85000\n    },\n    {\n        \"name\": \"Akunda Bay\",\n        \"postcode\": \"2084\",\n        \"capacity\": 13500\n    },\n    {\n        \"name\": \"Werrington County\",\n        \"postcode\": \"2747\",\n        \"capacity\": 13500\n    },\n    {\n        \"name\": \"Bagot\",\n        \"postcode\": \"0820\",\n        \"capacity\": 27000\n    },\n    {\n        \"name\": \"Yirrkala\",\n        \"postcode\": \"0880\",\n        \"capacity\": 13500\n    },\n    {\n        \"name\": \"University of Melbourne\",\n        \"postcode\": \"3010\",\n        \"capacity\": 85000\n    },\n    {\n        \"name\": \"Norfolk Island\",\n        \"postcode\": \"2899\",\n        \"capacity\": 13500\n    },\n    {\n        \"name\": \"Ootha\",\n        \"postcode\": \"2875\",\n        \"capacity\": 13500\n    },\n    {\n        \"name\": \"Kent Town\",\n        \"postcode\": \"5067\",\n        \"capacity\": 13500\n    },\n    {\n        \"name\": \"Northgate Mc\",\n        \"postcode\": \"9464\",\n        \"capacity\": 13500\n    },\n    {\n        \"name\": \"Gold Coast Mc\",\n        \"postcode\": \"9729\",\n        \"capacity\": 50000\n    }\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/battery/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"battery",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findNames",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/battery/findbatterynames/6525-9729",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"battery",
+						"findbatterynames",
+						"6525-9729"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
